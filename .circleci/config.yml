@@ -10,3 +10,6 @@ jobs:
           name: build docker
           command: ./.circleci/setup.sh
 
+      - run:
+          name: setup awscli
+          command: ./.circleci/aws.sh
