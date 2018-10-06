@@ -3,7 +3,7 @@ touch ~/.aws/config
 touch ~/.aws/credentials
 
 echo "[default]" >> ~/.aws/config
-echo "region = us-west-2" >> ~/.aws/config
+echo "region = us-east-2" >> ~/.aws/config
 echo "output = json" >> ~/.aws/config
 
 echo "[default]" >> ~/.aws/credentials

@@ -6,10 +6,11 @@ jobs:
         image: circleci/classic:latest
     steps:
       - checkout
-      - run:
-          name: build docker
-          command: ./.circleci/setup.sh
 
       - run:
           name: setup awscli
           command: ./.circleci/aws.sh
+
+      - run:
+          name: build docker
+          command: ./.circleci/setup.sh
